@@ -3,6 +3,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Projects from "./Components/Projects";
 
 class App extends Component {
   render() {
@@ -10,11 +11,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Philip Leung Profile Site </h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Hello , I am Philip and i am a software developer
         </p>
+        <Projects />
       </div>
     );
   }
